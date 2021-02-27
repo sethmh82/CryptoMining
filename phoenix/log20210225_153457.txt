@@ -1,0 +1,39 @@
+2021.02.25:15:34:57.623: main Phoenix Miner 5.5c Windows/msvc - Release build
+2021.02.25:15:34:57.623: main Cmd line: 
+2021.02.25:15:34:57.623: main config.txt: -pool us1.ethermine.org:4444 -pool2 eu1.ethermine.org:4444 -wal 0x78b47d8188f3E22a52cf9D5E5c9Db09025DD1efD.worker1 -proto 3 -cdm 2 
+2021.02.25:15:34:57.623: main No CUDA driver found
+2021.02.25:15:34:58.571: main OpenCL driver version: 19.8.2/9.1-2
+2021.02.25:15:34:58.578: main Available GPUs for mining:
+2021.02.25:15:34:58.578: main GPU1: Radeon RX 570 Series (pcie 1), OpenCL 2.0, 4 GB VRAM, 32 CUs
+2021.02.25:15:34:58.580: main ADL library initialized
+2021.02.25:15:34:59.519: main Eth: the pool list contains 2 pools (2 from command-line)
+2021.02.25:15:34:59.519: main Eth: primary pool: us1.ethermine.org:4444
+2021.02.25:15:34:59.519: main Starting GPU mining
+2021.02.25:15:34:59.519: main Matched GPU1 to ADL adapter index 0 (method 1)
+2021.02.25:15:34:59.532: main GPU1: AMD driver 19.30.02
+2021.02.25:15:34:59.532: main GPU1: Created ADL monitor for adapter 0; overdrive version: 7 (7)
+2021.02.25:15:34:59.532: main GPU1: using AMD driver ver 19.30.2
+2021.02.25:15:34:59.532: main GPU1: AMD Compute mode is not turned on!
+2021.02.25:15:34:59.634: wdog Starting watchdog thread
+2021.02.25:15:34:59.634: main Eth: Connecting to ethash pool us1.ethermine.org:4444 (proto: QtMiner)
+2021.02.25:15:34:59.634: main GPU1: 30C 0% 6W
+GPUs power: 6.0 W
+2021.02.25:15:34:59.635: eths Eth: Can't resolve host us1.ethermine.org:4444 - The requested name is valid, but no data of the requested type was found
+2021.02.25:15:34:59.635: eths Eth: Reconnecting in 5 seconds...
+2021.02.25:15:34:59.835: main Listening for CDM remote manager at port 3333 in full mode
+2021.02.25:15:35:04.635: unkn Eth: Connecting to ethash pool us1.ethermine.org:4444 (proto: QtMiner)
+2021.02.25:15:35:04.636: eths Eth: Can't resolve host us1.ethermine.org:4444 - The requested name is valid, but no data of the requested type was found
+2021.02.25:15:35:04.636: eths Eth: Reconnecting in 5 seconds...
+2021.02.25:15:35:09.637: unkn Eth: Connecting to ethash pool us1.ethermine.org:4444 (proto: QtMiner)
+2021.02.25:15:35:09.638: eths Eth: Can't resolve host us1.ethermine.org:4444 - The requested name is valid, but no data of the requested type was found
+2021.02.25:15:35:09.638: eths Eth: Giving up after 3 retries, switching to next pool
+2021.02.25:15:35:09.638: eths Eth: Reconnecting in 5 seconds...
+2021.02.25:15:35:14.639: unkn Eth: Connecting to ethash pool eu1.ethermine.org:4444 (proto: QtMiner)
+2021.02.25:15:35:14.639: eths Eth: Can't resolve host eu1.ethermine.org:4444 - The requested name is valid, but no data of the requested type was found
+2021.02.25:15:35:14.640: eths Eth: Reconnecting in 5 seconds...
+2021.02.25:15:35:19.641: unkn Eth: Connecting to ethash pool eu1.ethermine.org:4444 (proto: QtMiner)
+2021.02.25:15:35:19.641: eths Eth: Can't resolve host eu1.ethermine.org:4444 - The requested name is valid, but no data of the requested type was found
+2021.02.25:15:35:19.642: eths Eth: Reconnecting in 5 seconds...
+2021.02.25:15:35:21.983: unkn Quitting...
+2021.02.25:15:35:22.130: wdog Stopping watchdog thread
+2021.02.25:15:35:22.130: main Exit code: 0
