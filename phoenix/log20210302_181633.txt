@@ -1,0 +1,27 @@
+2021.03.02:18:16:33.482: main Phoenix Miner 5.5c Windows/msvc - Release build
+2021.03.02:18:16:33.482: main Cmd line: 
+2021.03.02:18:16:33.482: main config.txt: -pool ssl://eu1.ethermine.org:5555 -pool2 ssl://us1.ethermine.org:5555 -wal 0x78b47d8188f3E22a52cf9D5E5c9Db09025DD1efD.worker1 -coin eth -acm -cclock 1350,1150 -cvddc 800,850 -mclock 1800,2150 -fanmin 60 -rvram 1 -dagrestart 1 
+2021.03.02:18:16:33.482: main No CUDA driver found
+2021.03.02:18:16:35.431: main OpenCL driver version: 19.8.2/9.1-2
+2021.03.02:18:16:35.431: main OpenCL driver version: 17.8-BETA
+2021.03.02:18:16:35.431: main Ignoring old OpenCL driver(s), using driver version 19.8.2/9.1-2
+2021.03.02:18:16:35.440: main Available GPUs for mining:
+2021.03.02:18:16:35.440: main GPU1: Radeon RX 570 Series (pcie 1), OpenCL 2.0, 4 GB VRAM, 32 CUs
+2021.03.02:18:16:35.440: main GPU2: Radeon (TM) RX 480 Graphics (pcie 4), OpenCL 2.0, 4 GB VRAM, 36 CUs
+2021.03.02:18:16:35.440: main ADL library initialized
+2021.03.02:18:16:37.308: main Eth: the pool list contains 2 pools (2 from command-line)
+2021.03.02:18:16:37.308: main Eth: primary pool: ssl://eu1.ethermine.org:5555
+2021.03.02:18:16:37.308: main Starting GPU mining
+2021.03.02:18:16:37.308: main Matched GPU1 to ADL adapter index 8 (method 1)
+2021.03.02:18:16:37.319: main GPU1: AMD driver 19.30.02
+2021.03.02:18:16:37.319: main GPU1: Created ADL monitor for adapter 8; overdrive version: 7 (7)
+2021.03.02:18:16:37.319: main GPU1: using AMD driver ver 19.30.2
+2021.03.02:18:16:37.319: main Matched GPU2 to ADL adapter index 0 (method 1)
+2021.03.02:18:16:37.329: main GPU2: AMD driver 19.30.02
+2021.03.02:18:16:37.329: main GPU2: Created ADL monitor for adapter 0; overdrive version: 7 (7)
+2021.03.02:18:16:37.329: main GPU2: using AMD driver ver 19.30.2
+2021.03.02:18:16:37.389: hwmc GPU1: set GPU clocks to 1350 MHz (Vddc 800 mV)
+2021.03.02:18:16:37.416: hwmc GPU1: set VMEM clocks to 1800 MHz (Vddc 900 mV)
+2021.03.02:18:16:37.425: hwmc GPU2: set GPU clocks to 1150 MHz (Vddc 850 mV)
+2021.03.02:18:16:37.429: hwmc GPU2: set VMEM clocks to 2150 MHz (Vddc 975 mV)
+2021.03.02:18:16:46.156: wdog Starting watchdog thread

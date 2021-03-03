@@ -1,0 +1,8 @@
+2021.03.02:15:29:49.342: main Phoenix Miner 5.5c Windows/msvc - Release build
+2021.03.02:15:29:49.342: main Cmd line: -acm -coin eth -pool ssl://eu1.ethermine.org:5555 -pool2 ssl://us1.ethermine.org:5555 -rvram 1 -wal 0x78b47d8188f3E22a52cf9D5E5c9Db09025DD1efD.worker1 -mt 2 -rxboost 20 
+2021.03.02:15:29:49.342: main No CUDA driver found
+2021.03.02:15:29:50.695: main OpenCL driver version: 19.8.2/9.1-2
+2021.03.02:15:29:50.695: main OpenCL driver version: 17.8-BETA
+2021.03.02:15:29:50.695: main Ignoring old OpenCL driver(s), using driver version 19.8.2/9.1-2
+2021.03.02:15:29:50.698: main No avaiable GPUs for mining. Please check your drivers and/or hardware.
+2021.03.02:15:29:50.698: main Exit code: 8

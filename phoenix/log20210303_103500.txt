@@ -1,0 +1,42 @@
+2021.03.03:10:35:00.807: main Phoenix Miner 5.5c Windows/msvc - Release build
+2021.03.03:10:35:00.807: main Cmd line: 
+2021.03.03:10:35:00.807: main config.txt: -pool ssl://eu1.ethermine.org:5555 -pool2 ssl://us1.ethermine.org:5555 -wal 0x78b47d8188f3E22a52cf9D5E5c9Db09025DD1efD.worker1 -coin eth -acm -cclock 1250,1250 -cvddc 800,800 -mclock 1800,1800 -fanmin 60 -rvram 1 -dagrestart 1 
+2021.03.03:10:35:00.807: main No CUDA driver found
+2021.03.03:10:35:02.362: main OpenCL driver version: 19.8.2/9.1-2
+2021.03.03:10:35:02.362: main OpenCL driver version: 17.8-BETA
+2021.03.03:10:35:02.362: main Ignoring old OpenCL driver(s), using driver version 19.8.2/9.1-2
+2021.03.03:10:35:02.373: main Available GPUs for mining:
+2021.03.03:10:35:02.373: main GPU1: Radeon RX 570 Series (pcie 1), OpenCL 2.0, 4 GB VRAM, 32 CUs
+2021.03.03:10:35:02.373: main GPU2: Radeon RX 570 Series (pcie 4), OpenCL 2.0, 4 GB VRAM, 32 CUs
+2021.03.03:10:35:02.374: main ADL library initialized
+2021.03.03:10:35:04.136: main Eth: the pool list contains 2 pools (2 from command-line)
+2021.03.03:10:35:04.136: main Eth: primary pool: ssl://eu1.ethermine.org:5555
+2021.03.03:10:35:04.136: main Starting GPU mining
+2021.03.03:10:35:04.136: main Matched GPU1 to ADL adapter index 8 (method 1)
+2021.03.03:10:35:04.148: main GPU1: AMD driver 19.30.02
+2021.03.03:10:35:04.148: main GPU1: Created ADL monitor for adapter 8; overdrive version: 7 (7)
+2021.03.03:10:35:04.148: main GPU1: using AMD driver ver 19.30.2
+2021.03.03:10:35:04.148: main Matched GPU2 to ADL adapter index 0 (method 1)
+2021.03.03:10:35:04.159: main GPU2: AMD driver 19.30.02
+2021.03.03:10:35:04.159: main GPU2: Created ADL monitor for adapter 0; overdrive version: 7 (7)
+2021.03.03:10:35:04.159: main GPU2: using AMD driver ver 19.30.2
+2021.03.03:10:35:04.219: hwmc GPU1: set GPU clocks to 1250 MHz (Vddc 800 mV)
+2021.03.03:10:35:04.249: hwmc GPU1: set VMEM clocks to 1800 MHz (Vddc 900 mV)
+2021.03.03:10:35:04.256: hwmc GPU2: set GPU clocks to 1250 MHz (Vddc 800 mV)
+2021.03.03:10:35:04.260: hwmc GPU2: set VMEM clocks to 1800 MHz (Vddc 900 mV)
+2021.03.03:10:35:15.558: wdog Starting watchdog thread
+2021.03.03:10:35:35.351: main Eth: Connecting to ethash pool ssl://eu1.ethermine.org:5555 (proto: EthProxy)
+2021.03.03:10:35:35.372: main GPU1: 49C 0% 7W, GPU2: 50C 0% 4W
+GPUs power: 10.9 W
+2021.03.03:10:35:35.404: eths Eth: Connected to SSL ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.03.03:10:35:35.449: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0x78b47d8188f3E22a52cf9D5E5c9Db09025DD1efD.worker1"]}
+
+2021.03.03:10:35:35.487: eths Eth: Received: {"id":1,"jsonrpc":"2.0","result":true}
+2021.03.03:10:35:35.487: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.03.03:10:35:35.524: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xa4773a072b382e869e988f3a2e5ffeb52d028547c69a22b09877ef3f2c2d4943","0x02708740d48e0787a3393377653b447394498154c15dca5f525c377fb09ef1e8","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb69a04"]}
+2021.03.03:10:35:35.524: eths Eth: New job #a4773a07 from ssl://eu1.ethermine.org:5555; diff: 4000MH
+2021.03.03:10:35:36.043: GPU1 GPU1: Starting up... (0)
+2021.03.03:10:35:36.043: GPU1 GPU1: Generating ethash light cache for epoch #398
+2021.03.03:10:35:36.047: GPU2 GPU2: Starting up... (0)
+2021.03.03:10:35:36.243: main Listening for CDM remote manager at port 3333 in read-only mode
